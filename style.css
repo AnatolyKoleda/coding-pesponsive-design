@@ -41,6 +41,71 @@ ul{
 nav{
     margin-top: 20px;
 }
+
+.top-container{
+    width: 80%;
+    margin: auto;
+    padding-top: 120px;
+}
+.top-slide{
+    background: url(img/slider_bg.jpg) no-repeat;
+    padding-bottom: 280px;
+    background-size: cover;
+}
+.top-slide h2{
+    background: #ffea00;
+    display: inline;
+    font-size: 70px;
+    padding: 0px 13px;
+}
+.top-slide :nth-child(2){
+    margin-bottom: 10px;
+}
+.top-slide p{
+    background: #414146;
+    display: inline;
+    font-size: 24px;
+    color: #f6f6f6;
+}
+
+.specialize-container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.specialize-container h3{
+    font-size: 36px;
+}
+.container-p{
+    font-size: 24px;
+    margin-top: 20px;
+}
+.first-p{
+    font-size: 20px;
+    color: #f6f6f6;
+}
+.bottom-card{
+    background: #414146;
+    position: relative;
+    top: -10px;
+}
+.specialize-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.top-card{
+    overflow: hidden;
+}
+.second-p{
+    font-size: 13px;
+    color: #f6f6f6;
+    height: 61.5px;
+}
+.card-img{
+    width: 250px;
+    height: 208px;
+}
+
 @media screen and ( max-width: 420px){
     .header-container{
         width: 100%;
